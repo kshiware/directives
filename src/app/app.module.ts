@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { DirvComponent } from './dirv/dirv.component';
 import { InputMagicDirective } from './dirv/input-magic.directive';
 import { MagicColorDirective } from './dirv/magic-color.directive';
+import { InterCompV1Component } from './inter-comp-v1/inter-comp-v1.component';
+import { EmojisComponent } from './inter-comp-v1/emojis/emojis.component';
+import { ProgressComponent } from './inter-comp-v1/progress/progress.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DirvComponent,
     InputMagicDirective,
-    MagicColorDirective
+    MagicColorDirective,
+    InterCompV1Component,
+    EmojisComponent,
+    ProgressComponent
   ],
   imports: [
     BrowserModule,

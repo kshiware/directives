@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="col-md-12">
+    <app-progress (onProgress)="progress = $event"></app-progress>  
+  </div>
+  <!-- <h1>Parent Variable {{progress}}</h1> -->
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <app-emojis [emoji]="progress"></app-emojis>
+  </div>
+</div>

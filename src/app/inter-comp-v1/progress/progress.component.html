@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" [style.width]="prgStr" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{progress}}%</div>
+  </div>
+</div>
+<div class="jumbotron">
+  <input type="button" value="Plus" class="btn btn-primary" (click)="plus()">
+  <input type="button" value="Minus" class="btn btn-primary" (click)="minus()">
+</div>
