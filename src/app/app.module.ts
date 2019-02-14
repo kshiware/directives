@@ -9,6 +9,7 @@ import { MagicColorDirective } from './dirv/magic-color.directive';
 import { InterCompV1Component } from './inter-comp-v1/inter-comp-v1.component';
 import { EmojisComponent } from './inter-comp-v1/emojis/emojis.component';
 import { ProgressComponent } from './inter-comp-v1/progress/progress.component';
+import { InfoCardComponent } from './dirv/info-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProgressComponent } from './inter-comp-v1/progress/progress.component';
     MagicColorDirective,
     InterCompV1Component,
     EmojisComponent,
-    ProgressComponent
+    ProgressComponent,
+    InfoCardComponent
   ],
   imports: [
     BrowserModule,
